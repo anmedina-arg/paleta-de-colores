@@ -1,0 +1,27 @@
+.gradient {
+  width: 100vw;
+  height: 500px;
+  border-radius: 5%;
+}
+
+.one{
+  background: linear-gradient(90deg, #103ce7, #64e9ff);
+}
+.two{
+  background: linear-gradient(90deg, #2dfff5, #fff787);
+}
+.three{
+  background: linear-gradient(90deg, #6157ff, #ee49fd);
+}
+.four{
+  background: linear-gradient(90deg, #ff4066, #fff16a);
+}
+.five{
+  background: linear-gradient(90deg, #0700de, #ddffc9);
+}
+.six{
+  background: linear-gradient(90deg, #ff8473, #fff9d2);
+}
+.seven{
+  background: linear-gradient(90deg, #0172af, #74febd);
+}
