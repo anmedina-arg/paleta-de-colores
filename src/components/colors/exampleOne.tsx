@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import { IconMenu } from '../components/iconMenu/iconMenu';
 import './styles.css';
+
 
 export const ExampleOne = () => {
   const [visible, setVisible] = useState(false)
@@ -10,7 +12,7 @@ export const ExampleOne = () => {
   }
   return (
     <>
-      <h5 className='title' onClick={desplegable}>Ejemplo 1</h5>
+      <h5 className='title' onClick={desplegable}>Ejemplo 1 <IconMenu/></h5>
       <div className={visible ? 'visible' : 'hidden'}>
         <div className='container'>
           <div className="circle one-one"></div>

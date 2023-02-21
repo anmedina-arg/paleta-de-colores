@@ -1,10 +1,11 @@
 .iconMenu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
-  border: 1px solid red;
   height: 100%;
-  /* width: 100%; */
 }
 
-svg:hover{
+.iconMenu:hover{
   transform: rotate(180deg);
 }

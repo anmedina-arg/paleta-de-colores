@@ -1,5 +1,7 @@
 .title{
   text-transform: uppercase;
+  height: 2rem;
+  display: flex;
 }
 
 .visible{
