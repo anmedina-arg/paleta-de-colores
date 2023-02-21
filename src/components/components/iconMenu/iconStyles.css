@@ -1,0 +1,10 @@
+.iconMenu{
+  cursor: pointer;
+  border: 1px solid red;
+  height: 100%;
+  /* width: 100%; */
+}
+
+svg:hover{
+  transform: rotate(180deg);
+}

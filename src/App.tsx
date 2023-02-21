@@ -4,6 +4,7 @@ import { ExampleFour } from './components/colors/exampleFour';
 import { ExampleOne } from './components/colors/exampleOne';
 import { ExampleThree } from './components/colors/exampleThree';
 import { ExampleTwo } from './components/colors/exampleTwo';
+import { Label } from './components/components/labels/label';
 import { GradientFive } from './components/gradients/gradientFive';
 import { GradientFour } from './components/gradients/gradientFour';
 import { GradientOne } from './components/gradients/gradientOne';
@@ -28,6 +29,7 @@ function App() {
       <GradientFive />
       <GradientSix />
       <GradientSeven />
+      <Label></Label>
     </div>
   );
 }

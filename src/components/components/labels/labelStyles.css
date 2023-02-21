@@ -1,0 +1,10 @@
+.labelStyles{
+  text-transform: uppercase;
+}
+
+.labelStyles{
+  display: flex;
+  cursor: pointer;
+  height: 20px;
+  border: 2px solid green;
+}

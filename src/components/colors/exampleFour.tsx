@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import './styles.css';
 
+
 export const ExampleFour = () => {
   const [visible, setVisible] = useState(false)
 
-  function desplegable(e:any) {
+  function desplegable(e:React.MouseEvent) {
     e.preventDefault();
     setVisible(!visible)
   }
